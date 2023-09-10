@@ -1,0 +1,170 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    list-style-type: none;
+}
+.ul-menu{
+    background-color: darkslateblue;
+    color: white;
+    list-style-type: none ;
+    overflow: hidden;
+    text-align: center;
+    
+    
+}
+.li-menu{
+    float: right;
+    
+}
+.a-menu{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: block;
+    padding: 17px;
+}
+.p-menu{
+    display: inline;
+    font-size: 40px;
+}
+.li-menu a:hover{
+    font-size: 30px;
+   background-color: lightblue;
+}
+
+.h-menu{
+    font-size: 20px;
+    color: blueviolet;
+    width: 50%;
+    float:left ;
+    text-align: center;
+}
+.profile{
+    width: 360px;
+    height: 360px;
+    border-radius: 360px;
+}
+.icon{
+    padding: 2px;
+    width:28px ;
+    height: 28px;
+    border-radius: 28px;
+    background-color: honeydew;
+}
+.s-menu{
+    width: 50%;
+    float: left;
+}
+.row:after {
+display: table;
+clear: both;
+content: "";
+}
+.main-bar{
+   background-color:grey;
+   display: block;
+   height:25px ;
+}
+.main-bar span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color:white;
+}
+.javaScript{
+    width: 90%;
+    animation: javaScript  2s;
+}
+.C{
+    width: 80%;
+    animation: C 2s;
+}
+.Math{
+    width: 100%;
+    animation: Math  2s;
+}
+.Physics{
+    width: 100%;
+    animation: Physics  2s;
+}
+.Drawing{
+    width: 100%;
+    animation: Drawing  2s;
+}
+@keyframes javaScript{
+    0%{
+       width: 0%;
+       background-color: gold;
+    }
+    100%{
+       width: 90%;
+       background-color: goldenrod;
+    }
+}
+@keyframes C{
+    0%{
+       width: 0%;
+       background-color: gold;
+    }
+    100%{
+       width: 90%;
+       background-color: goldenrod;
+    }
+}
+@keyframes Math{
+    0%{
+       width: 0%;
+       background-color: gold;
+    }
+    100%{
+       width: 90%;
+       background-color: goldenrod;
+    }
+}
+@keyframes Physics{
+    0%{
+       width: 0%;
+       background-color: gold;
+    }
+    100%{
+       width: 90%;
+       background-color: goldenrod;
+    }
+}
+@keyframes Drawing{
+    0%{
+       width: 0%;
+       background-color: gold;
+    }
+    100%{
+       width: 90%;
+       background-color: goldenrod;
+    }
+}
+.myExperience{
+    text-align: center;
+    font-size: 35px;
+    color: blueviolet;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+    font-size: 20px;
+}
+.Projects{
+    text-align: center;
+    font-size: 50px;
+    color: darkslateblue;
+    
+
+}
+
+
+@media screen and (max-width:800px) {
+    .h-menu{
+        width:100%;
+    }
+}
+
